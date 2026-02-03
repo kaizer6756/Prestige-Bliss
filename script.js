@@ -167,7 +167,7 @@ const PRODUCTS = [
                 discountPercentage: 3
             }
         ],
-        image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+        image: '5.jpg'
     },
     {
         id: '2',
@@ -225,11 +225,11 @@ const PRODUCTS = [
                 discountPercentage: 2
             }
         ],
-        image: 'https://images.unsplash.com/photo-1543853125-2f9cc3d8e7cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+        image: '4.jpg'
     },
     {
         id: '4',
-        name: 'Royal Essence',
+        name: 'Comming Soon...',
         category: 'signature',
         description: 'Exotic spices and precious woods. Collector item.',
         badge: '35% OFF',
@@ -254,11 +254,11 @@ const PRODUCTS = [
                 discountPercentage: 3
             }
         ],
-        image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+        image: '1.jpeg'
     },
     {
         id: '5',
-        name: 'Midnight Symphony',
+        name: 'Comming Soon...',
         category: 'unisex',
         description: 'Musk, amber, and patchouli. Unisex fragrance.',
         badge: '35% OFF',
@@ -283,11 +283,11 @@ const PRODUCTS = [
                 discountPercentage: 3
             }
         ],
-        image: 'https://images.unsplash.com/photo-1590736969958-65d5e7c5e867?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+        image: '1.jpeg'
     },
     {
         id: '6',
-        name: 'Golden Twilight',
+        name: 'Comming Soon...',
         category: 'signature',
         description: 'Citrus, bergamot, and cedarwood. Summer special.',
         badge: '35% OFF',
@@ -312,11 +312,11 @@ const PRODUCTS = [
                 discountPercentage: 3
             }
         ],
-        image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+        image: '1.jpeg'
     },
     {
         id: '7',
-        name: 'Silk & Saffron',
+        name: 'Comming Soon...',
         category: 'limited',
         description: 'Saffron, rose, and sandalwood. Arabian nights.',
         badge: '34% OFF',
@@ -341,11 +341,11 @@ const PRODUCTS = [
                 discountPercentage: 3
             }
         ],
-        image: 'https://images.unsplash.com/photo-1590736969958-65d5e7c5e867?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+        image: '1.jpeg'
     },
     {
         id: '8',
-        name: 'Ocean Breeze',
+        name: 'Comming Soon...',
         category: 'seasonal',
         description: 'Sea salt, driftwood, and marine notes. Fresh aquatic.',
         badge: '34% OFF',
@@ -370,7 +370,7 @@ const PRODUCTS = [
                 discountPercentage: 3
             }
         ],
-        image: 'https://images.unsplash.com/photo-1543853125-2f9cc3d8e7cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+        image: '1.jpeg'
     }
 ];
 
@@ -1316,7 +1316,7 @@ class PageController {
         // Update banner to show new pricing
         const heroSubtitle = document.querySelector('.hero-subtitle');
         if (heroSubtitle) {
-            heroSubtitle.textContent = 'Premium fragrances starting from ₱99 for 10ml! Discover our 30ml (₱190) and 50ml (₱339-349) sizes.';
+            heroSubtitle.textContent = 'Feel the Breeze, Live the Prestige';
         }
     }
     
